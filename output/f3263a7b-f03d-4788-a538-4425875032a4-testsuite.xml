@@ -1,0 +1,189 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681174969432' stop='1681174987807'>
+    <name>Delete User:</name>
+    <title>Delete User:</title>
+    <test-cases>
+        <test-case start='1681174969432' status='passed' stop='1681174987748'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1681174971344' status='passed' stop='1681174971749'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681174971750' status='passed' stop='1681174974615'>
+                    <name>home_page: entrarNaPagina </name>
+                    <title>home_page: entrarNaPagina </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174971750' status='passed' stop='1681174972606'>
+                            <name>I click ".//*[@id="root"]/div/div[2]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174972607' status='passed' stop='1681174974614'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174974615' status='passed' stop='1681174974692'>
+                    <name>home_page: adicionarNovoUser </name>
+                    <title>home_page: adicionarNovoUser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174974615' status='passed' stop='1681174974692'>
+                            <name>I click ".//*[@id="root"]/div/div[3]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[3]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174974692' status='passed' stop='1681174974703'>
+                    <name>I grab title </name>
+                    <title>I grab title </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681174974705' status='passed' stop='1681174975289'>
+                    <name>create_user_page: criandoUsuarioComSucesso </name>
+                    <title>create_user_page: criandoUsuarioComSucesso </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174974705' status='passed' stop='1681174974871'>
+                            <name>I fill field {"css":"input[name=name]"}, "Ezaqueu Saraiva"</name>
+                            <title>I fill field {"css":"input[name=name]"}, "Ezaqueu Saraiva"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174974871' status='passed' stop='1681174975038'>
+                            <name>I fill field {"css":"input[name=email]"}, "Michel.Carvalho46@hotmail.com"</name>
+                            <title>I fill field {"css":"input[name=email]"}, "Michel.Carvalho46@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174975038' status='passed' stop='1681174975155'>
+                            <name>I fill field {"css":"input[name=cpf]"}, "19227135626"</name>
+                            <title>I fill field {"css":"input[name=cpf]"}, "19227135626"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174975156' status='passed' stop='1681174975289'>
+                            <name>I fill field {"css":"input[name=phone]"}, "+55 (09) 7209-2133"</name>
+                            <title>I fill field {"css":"input[name=phone]"}, "+55 (09) 7209-2133"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174975289' status='passed' stop='1681174977377'>
+                    <name>home_page: guardarUsuario </name>
+                    <title>home_page: guardarUsuario </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174975289' status='passed' stop='1681174975367'>
+                            <name>I click ".//*[@id="root"]/div/div[6]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[6]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174975367' status='passed' stop='1681174977377'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174977377' status='passed' stop='1681174979446'>
+                    <name>validacao_cadastro_com_sucesso_page: entrarNaPagina </name>
+                    <title>validacao_cadastro_com_sucesso_page: entrarNaPagina </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174977377' status='passed' stop='1681174977444'>
+                            <name>I click ".//*[@id="root"]/div/div[2]/div[2]/div[4]/div[5]/div[1]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[2]/div[2]/div[4]/div[5]/div[1]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174977444' status='passed' stop='1681174979446'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174979446' status='passed' stop='1681174981525'>
+                    <name>validacao_cadastro_com_sucesso_page: voltarPagina </name>
+                    <title>validacao_cadastro_com_sucesso_page: voltarPagina </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174979446' status='passed' stop='1681174979511'>
+                            <name>I click ".//*[@id="root"]/div/div[6]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[6]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174979511' status='passed' stop='1681174981525'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174981525' status='passed' stop='1681174984590'>
+                    <name>delete_user_page: botaoDeletar </name>
+                    <title>delete_user_page: botaoDeletar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174981525' status='passed' stop='1681174981582'>
+                            <name>I click ".//*[@id="root"]/div/div[2]/div[2]/div[2]/div[5]/div[3]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[2]/div[2]/div[2]/div[5]/div[3]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174981582' status='passed' stop='1681174984589'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174984590' status='passed' stop='1681174987748'>
+                    <name>delete_user_page: botaoConfirmarRemocao </name>
+                    <title>delete_user_page: botaoConfirmarRemocao </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174984590' status='passed' stop='1681174984746'>
+                            <name>I click "./html/body/div[2]/div/div[3]/div[2]"</name>
+                            <title>I click "./html/body/div[2]/div/div[3]/div[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174984746' status='passed' stop='1681174987747'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

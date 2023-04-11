@@ -1,0 +1,266 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681174987818' stop='1681175013251'>
+    <name>Edit User:</name>
+    <title>Edit User:</title>
+    <test-cases>
+        <test-case start='1681174987818' status='passed' stop='1681175013118'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1681174989711' status='passed' stop='1681174990104'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681174990104' status='passed' stop='1681174992607'>
+                    <name>home_page: entrarNaPagina </name>
+                    <title>home_page: entrarNaPagina </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174990104' status='passed' stop='1681174990597'>
+                            <name>I click ".//*[@id="root"]/div/div[2]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174990597' status='passed' stop='1681174992607'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174992607' status='passed' stop='1681174994608'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681174994608' status='passed' stop='1681174994674'>
+                    <name>home_page: adicionarNovoUser </name>
+                    <title>home_page: adicionarNovoUser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174994608' status='passed' stop='1681174994674'>
+                            <name>I click ".//*[@id="root"]/div/div[3]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[3]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174994674' status='passed' stop='1681174994682'>
+                    <name>I grab title </name>
+                    <title>I grab title </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681174994684' status='passed' stop='1681174995223'>
+                    <name>create_user_page: criandoUsuarioComSucesso </name>
+                    <title>create_user_page: criandoUsuarioComSucesso </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174994684' status='passed' stop='1681174994813'>
+                            <name>I fill field {"css":"input[name=name]"}, "Ezaqueu Saraiva"</name>
+                            <title>I fill field {"css":"input[name=name]"}, "Ezaqueu Saraiva"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174994813' status='passed' stop='1681174994964'>
+                            <name>I fill field {"css":"input[name=email]"}, "Michel.Carvalho46@hotmail.com"</name>
+                            <title>I fill field {"css":"input[name=email]"}, "Michel.Carvalho46@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174994964' status='passed' stop='1681174995106'>
+                            <name>I fill field {"css":"input[name=cpf]"}, "19227135626"</name>
+                            <title>I fill field {"css":"input[name=cpf]"}, "19227135626"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174995106' status='passed' stop='1681174995223'>
+                            <name>I fill field {"css":"input[name=phone]"}, "+55 (09) 7209-2133"</name>
+                            <title>I fill field {"css":"input[name=phone]"}, "+55 (09) 7209-2133"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174995223' status='passed' stop='1681174997285'>
+                    <name>home_page: guardarUsuario </name>
+                    <title>home_page: guardarUsuario </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174995223' status='passed' stop='1681174995280'>
+                            <name>I click ".//*[@id="root"]/div/div[6]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[6]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174995280' status='passed' stop='1681174997285'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174997285' status='passed' stop='1681174999356'>
+                    <name>home_page: botaoEditar </name>
+                    <title>home_page: botaoEditar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174997285' status='passed' stop='1681174997343'>
+                            <name>I click ".//*[@id="root"]/div/div[2]/div[2]/div[3]/div[5]/div[2]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[2]/div[2]/div[3]/div[5]/div[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681174997343' status='passed' stop='1681174999356'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681174999356' status='passed' stop='1681175011063'>
+                    <name>edit_user_page: editandoInformacoesDoUsuario </name>
+                    <title>edit_user_page: editandoInformacoesDoUsuario </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681174999356' status='passed' stop='1681175001359'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175001359' status='passed' stop='1681175001408'>
+                            <name>I clear field {"css":"input[name=name]"}</name>
+                            <title>I clear field {"css":"input[name=name]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175001408' status='passed' stop='1681175002414'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175002414' status='passed' stop='1681175002510'>
+                            <name>I fill field {"css":"input[name=name]"}, "Elisabete Reis"</name>
+                            <title>I fill field {"css":"input[name=name]"}, "Elisabete Reis"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175002510' status='passed' stop='1681175003519'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175003519' status='passed' stop='1681175003586'>
+                            <name>I clear field {"css":"input[name=email]"}</name>
+                            <title>I clear field {"css":"input[name=email]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175003587' status='passed' stop='1681175004596'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175004596' status='passed' stop='1681175004750'>
+                            <name>I fill field {"css":"input[name=email]"}, "Clovis.Silva43@live.com"</name>
+                            <title>I fill field {"css":"input[name=email]"}, "Clovis.Silva43@live.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175004750' status='passed' stop='1681175005755'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175005755' status='passed' stop='1681175005802'>
+                            <name>I clear field {"css":"input[name=cpf]"}</name>
+                            <title>I clear field {"css":"input[name=cpf]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175005803' status='passed' stop='1681175006804'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175006804' status='passed' stop='1681175006897'>
+                            <name>I fill field {"css":"input[name=cpf]"}, "88186403728"</name>
+                            <title>I fill field {"css":"input[name=cpf]"}, "88186403728"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175006897' status='passed' stop='1681175007904'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175007905' status='passed' stop='1681175007952'>
+                            <name>I clear field {"css":"input[name=phone]"}</name>
+                            <title>I clear field {"css":"input[name=phone]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175007952' status='passed' stop='1681175008955'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175008955' status='passed' stop='1681175009047'>
+                            <name>I fill field {"css":"input[name=phone]"}, "(27) 7922-8021"</name>
+                            <title>I fill field {"css":"input[name=phone]"}, "(27) 7922-8021"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175009047' status='passed' stop='1681175011062'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1681175011063' status='passed' stop='1681175013118'>
+                    <name>validacao_editar_cadastro_com_sucesso_page: atualizarCadastro </name>
+                    <title>validacao_editar_cadastro_com_sucesso_page: atualizarCadastro </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1681175011063' status='passed' stop='1681175011111'>
+                            <name>I click ".//*[@id="root"]/div/div[6]"</name>
+                            <title>I click ".//*[@id="root"]/div/div[6]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1681175011112' status='passed' stop='1681175013118'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

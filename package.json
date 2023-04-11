@@ -1,0 +1,29 @@
+{
+  "name": "desafio_tinnova_qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erick Nascimento",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@faker-js/faker": "^7.3.0",
+    "@wdio/selenium-standalone-service": "^6.12.1",
+    "codeceptjs": "^3.4.1",
+    "faker": "^5.5.3",
+    "mocha": "^10.2.0",
+    "playwright": "^1.30.0",
+    "testcafe": "^2.5.0",
+    "webdriverio": "^6.12.1"
+  },
+  "dependencies": {
+    "@codeceptjs/configure": "^0.10.0",
+    "@codeceptjs/detox-helper": "^1.0.2",
+    "faker-br": "^0.4.1",
+    "gerador-validador-cpf": "^5.0.2",
+    "mochawesome": "^7.1.3"
+  }
+}
