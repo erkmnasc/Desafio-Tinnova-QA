@@ -15,7 +15,7 @@ Explicar como executar os testes automatizados para este sistema.
 ### Instalar dependências
 
 ```
-git clone https://github.com/erkmnasc/CodeceptJS-Web.git
+https://github.com/erkmnasc/Desafio-Tinnova-QA.git
 ```
 ```
 npm install
